@@ -6,8 +6,8 @@ long taumBday(int b, int w, int bc, int wc, int z)
 
 long taumBday1(int b, int w, int bc, int wc, int z)
 {
-    long bc1 = bc < wc+z? bc : wc+z;
-    long wc1 = wc < bc+z? wc : bc+z;
+    long bc1 = bc < wc+z ? bc : wc+z;
+    long wc1 = wc < bc+z ? wc : bc+z;
 
     return (b*bc1) + (w*wc1);
 }
